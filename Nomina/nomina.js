@@ -6,7 +6,8 @@ function calcula(){
     dias: document.getElementById("dias").value,
     salario: document.getElementById("salario").value,
     imprime: function(){
-      console.log(this.dias * this.salario)
+      alert("El empleado " + this.nombre + " con puesto " + this.puesto
+      + " recibirá un salario de " + (this.dias * this.salario) + " pesos este mes");
     }
   }
   arreglo.push(empleado);
